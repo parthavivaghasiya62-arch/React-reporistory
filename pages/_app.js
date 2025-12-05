@@ -1,5 +1,4 @@
 
-// import './adminassets/css/styles.css'
 import { Provider } from "react-redux"
 import store from './redux/store/store'
 import "../styles/globals.css"
@@ -13,8 +12,6 @@ import '../public/adminAssets/assets/vendor/remixicon/remixicon.css'
 import '../public/adminAssets/assets/vendor/simple-datatables/style.css'
 import '../public/adminAssets/assets/css/style.css'
 
-import Head from "next/head"
-import Script from "next/script"
 
 // import "./assets/css/main.css"
 function MyApp({ Component, pageProps }) {
