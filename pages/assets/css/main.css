@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer base{
+    *{
+        font-family: 'Kanit', sans-serif;
+    }
+    .color__grey{
+        color:#272727;
+    }
+    
+    
+}
+@layer components{
+    .custom_btn{
+        @apply focus:outline-none text-white bg-green-1 hover:bg-green-800 rounded-2xl text-sm sm:text-lg px-9 sm:px-12 py-2 font-light text-center;
+    }
+    
+   
+}
